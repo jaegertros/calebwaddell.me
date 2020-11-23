@@ -9,249 +9,141 @@
 		<title>Phantom by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="css/demo-styles.css" rel="stylesheet" type="text/css">
 
 		<!-- The following libraries and polyfills are recommended to maximize browser support -->
 		<!-- NOTE: you must adjust the paths as appropriate for your project -->
 
 		<!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
-		<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+		<!--<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
 
 		<!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
-		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+		<!--<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
 
 		<!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
-		<script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script>
+		<!--<script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script>
 
 		<!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
-		:focus-visible polyfill
 
 		<script
 				src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"
 				defer
 		></script>
 	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
-
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
-
-						</div>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<div id="card">
-							<!-- All you need to put beautiful, interactive 3D content on your site: -->
-							<model-viewer
-									src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948"
-									ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
-									poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
-									alt="A 3D model of an astronaut"
-									shadow-intensity="1"
-									camera-controls
-									auto-rotate
-									ar
-							>
-							</model-viewer>
-							<section class="attribution">
-        						<span>
-          							<h1>Astronaut</h1>
-          							<span
-		  								>By
-            							<a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank"
-											>Poly</a
-										></span
-		  							>
-        						</span>
-								<a
-										class="cc"
-										href="https://creativecommons.org/licenses/by/2.0/"
-										target="_blank"
-								>
-									<img
-											src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-									/>
-									<img
-											src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-									/>
-								</a>
-							</section>
-						</div>
-						<div class="inner">
-							<header>
+    <body>
+		<div id="card">
+			<!-- All you need to put beautiful, interactive 3D content on your site: -->
+			<model-viewer
+				src="assets/Astronaut.glb"
+				ios-src="assets/Astronaut.usdz"
+				poster="assets/poster-astronaut.png"
+				alt="A 3D model of an astronaut"
+				shadow-intensity="1"
+				camera-controls
+				auto-rotate
+				ar
+			>
+			</model-viewer>
+			<section class="attribution">
+        		<span>
+       				<h1>Astronaut</h1>
+          			<span
+		  				>By
+            			<a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank"
+							>Poly</a
+						></span
+		  			>
+       			</span>
+				<a
+					class="cc"
+					href="https://creativecommons.org/licenses/by/2.0/"
+					target="_blank"
+				>
+					<img
+						src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+					/>
+					<img
+						src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+					/>
+				</a>
+			</section>
+		</div>
+			  </div>
+				<div id="card">
+				  <div class="inner">
+					<header>
 								<h1>This is Phantom, a free, fully responsive site<br />
 								template designed by <a href="https://html5up.net">HTML5 UP</a>.</h1>
 								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Magna</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Lorem</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Feugiat</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Tempus</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Aliquam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Veroeros</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ipsum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-							</section>
-						</div>
+					  </header>
+					  <section class="tiles">
+						  <article class="style1">
+							  <span class="image">
+							  <img src="images/pic01.jpg" alt="" />
+							  </span>
+							  <a href="generic.html">
+								  <h2>Magna</h2>
+								  <div class="content">
+									  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+								  </div>
+							  </a>
+						  </article>
+						  <article class="style2">
+							  <span class="image">
+								  <img src="images/pic02.jpg" alt="" />
+							  </span>
+							  <a href="generic.html">
+								  
+								  <div class="content">
+								    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+							  </div>
+						    </a>
+					    </article>
+						  <article class="style3">
+							  <span class="image">
+								  <img src="images/pic03.jpg" alt="" />
+							  </span>
+							  <a href="generic.html">
+								  <h2>Feugiat</h2>
+								  <div class="content"> </div>
+							  </a>
+						  </article>
+						  <article class="style4">
+							  <!-- Copy and Paste Me -->
+							  <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+								  <iframe
+    												src="https://glitch.com/embed/#!/embed/tested-foggy-beam?path=demo-styles.css&previewSize=0"
+    												title="tested-foggy-beam on Glitch"
+    												allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    												style="height: 100%; width: 100%; border: 0;">
+								  </iframe>
+							  </div>
+						  </article>
+					  </section>
+					</div>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
+						<span
+        					>This page is a basic demo of the
+        					<a
+          						href="https://github.com/GoogleWebComponents/model-viewer"
+          						target="_blank"
+          						>&lt;model-viewer&gt;</a
+        					>
+        					web component.</span
+      						>
+      						<span>It makes displaying 3D and AR content on the web easy ✌️</span>
+      						<a href="https://glitch.com/edit/#!/remix/model-viewer">
+        						<img
+          							src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726"
+         							alt="remix button"
+          							aria-label="remix"
+          							height="33"
+        						/>
+      						</a>
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
