@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/google/model-viewer
+	branch = master
+	commit = 1d05b87a903a67aa370d9f729014b06ff8ca5efe
+	parent = 29a069620b2cacf4833723b4484df39f74259ec6
+	method = merge
+	cmdver = 0.4.1
