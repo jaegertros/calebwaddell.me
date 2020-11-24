@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jaegertros/calebwaddell.me#readme",
   "dependencies": {
+    "@google/model-viewer": "^1.3.0",
     "bootswatch": "^4.5.3",
     "focus-visible": "^5.2.0",
     "gmaps": "^0.4.25",
