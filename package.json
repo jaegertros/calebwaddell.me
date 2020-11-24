@@ -18,8 +18,10 @@
   "homepage": "https://github.com/jaegertros/calebwaddell.me#readme",
   "dependencies": {
     "bootswatch": "^4.5.3",
+    "focus-visible": "^5.2.0",
     "gmaps": "^0.4.25",
     "jquery": "^3.5.1",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "polyfill": "^0.1.0"
   }
 }
